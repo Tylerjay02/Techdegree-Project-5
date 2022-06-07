@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  overflow-x: hidden;
+  font-size: 10px;
+}
+
+#search {
+  padding: 14px;
+  margin: 25px;
+width: 500px;
+border-radius: 5px;
+outline: none;
+border-color: darkgrey;
+border-style: solid;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 200px));
+  grid-template-rows: 200px 200px 200px;
+  grid-column-gap: 25px;
+  grid-row-gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
