@@ -12,10 +12,16 @@ body {
   font-size: 10px;
 }
 
+section {
+  width: 90%;
+  margin: auto;
+}
+
 #search {
   padding: 14px;
   margin: 25px;
-width: 500px;
+  width: 90%;
+max-width: 500px;
 border-radius: 5px;
 outline: none;
 border-color: darkgrey;
@@ -30,4 +36,4 @@ border-style: solid;
   grid-row-gap: 32px;
   align-items: center;
   justify-content: center;
-}   
+}
